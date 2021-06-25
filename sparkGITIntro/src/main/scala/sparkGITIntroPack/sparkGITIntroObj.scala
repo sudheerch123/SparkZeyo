@@ -14,7 +14,7 @@ object sparkGITIntroObj {
 						val spark = SparkSession.builder().getOrCreate()
 						import spark.implicits._
 						println
-						println("===============READ JSON USINF spark.read.json========================")
+						println("===============READ JSON USING spark.read.json========================")
 						println
 
 						val jsondf = spark.read.json("file:///c:/data/devices.json")
